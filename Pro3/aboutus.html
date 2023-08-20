@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>about us</title>
+
+<!--- font awesome cdn link --->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<style> 
+    *{
+
+    margin: 0;
+    padding: 0;
+    font-family: Bricolage Grotesque;
+    box-sizing: border-box;
+    background:linear-gradient(rgba(3,169,244,0.3),rgba(62,69,81,0.1));
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: url(pic.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    height: 100%;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+h1{
+  color: #F85370;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+span{
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  width: 500px;
+  background:linear-gradient(rgba(3,169,244,0.3),rgba(62,69,81,0.1));
+}
+span:hover{
+/* background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+color: #fff;
+border-radius: 20px; */
+transition: 0.5s;
+background: transparent;
+                            border: 1px solid indianred;
+
+
+}
+.active{
+  background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+  color: #fff;
+  border-radius: 20px;
+
+
+}
+</style>
+<body>
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>About Me</h1>
+            <p class="text">
+                Hello My name is Amrapali Tirpude, I am 22 y/o and  I'm a devops engineer, I have completed Graduation in 2021 in BCCA from GS college of commerce and economics, nagpur and this year I completed my Masters degree in Computer Management from top college name as DAIMSR. Thanks for visting the website.
+            </p>
+            <div class="skills">
+                <span>+91 79726 59751</span>
+                <span>amrapalit05@gmail.com</span>
+                <span>Nagpur Maharashtra</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
